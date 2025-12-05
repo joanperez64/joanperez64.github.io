@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La meva pàgina web</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+     <header>
+       
+            <div class="logo">
+                <img src="imatges/logo.png" alt="" />
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="pagina2.html">El despacho</a></li>
+                    <li><a href="">Servicios</a>
+                        <ul>
+						<li><a href="pagina3.html"> D. Laboral</a></li>
+						<li><a href="pagina4.html"> D. Civil </a></li>
+						<li><a href="pagina5,HTML"> D. Penal </a></li>
+						<li><a href="pagina6.html"> Extranjeria </a></li>
+					</ul>
+                    </li>
+                    <li><a href="pagina7.html">Contacto</a></li>
+                </ul>
+            </nav>
+       
+    </header>
+
+    <div class="formulario">
+        <div class="info-formulario">
+            <h2> Contacto </h2>
+            <p>Si quieres hacer una consulta, rellena el formulario con la cuestión de la que quieras asesorarte. Intentaré responder lo antes posible</p>
+            <a href="#"><i class="fa fa-phone" aria-hidden="true"></i>017 78 79 95</a><br>
+            <a href="#"><i class="fa fa-envelope"></i> joanadvocat64@gmail.com</a><br>
+            <a href="#"><i class="fa fa-map-marked"></i> Carrer del dret, 57,<br> 08015 Barcelona </a>
+        </div>
+    
+        <form action="https://formsubmit.co/joanperezfrias64@gmail.com" method="POST"" autocomplete="off">
+            <input type="text" name="nombre" placeholder="rellena tu nombre" class="campo">
+            <input type="email" name="email" placeholder="rellena tu correo" class="campo">
+            <textarea name="mensaje" placeholder="Haz tu pregunta"></textarea>
+            <input type="submit" name="Enviar" value="Enviar el mensaje" class="enviar">
+        </form> 
+    </div>
+
+     
+</body>
