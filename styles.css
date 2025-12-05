@@ -135,7 +135,7 @@ nav li ul li {
     position: relative;    
     border: 4px solid #111;
     border-radius: 10px;
-    flex: 1 1 35%;
+    flex: 1 1 40%;
     display: inline-block;
 }
 
@@ -385,4 +385,5 @@ form {
     }
 
     
+
 }
